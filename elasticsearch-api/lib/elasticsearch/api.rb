@@ -28,13 +28,14 @@ module Elasticsearch
       :filter_path                    # Filter the JSON response
     ]
 
-    HTTP_GET          = 'GET'.freeze
-    HTTP_HEAD         = 'HEAD'.freeze
-    HTTP_POST         = 'POST'.freeze
-    HTTP_PUT          = 'PUT'.freeze
-    HTTP_DELETE       = 'DELETE'.freeze
-    UNDERSCORE_SEARCH = '_search'.freeze
-    UNDERSCORE_ALL    = '_all'.freeze
+    HTTP_GET                     = 'GET'.freeze
+    HTTP_HEAD                    = 'HEAD'.freeze
+    HTTP_POST                    = 'POST'.freeze
+    HTTP_PUT                     = 'PUT'.freeze
+    HTTP_DELETE                  = 'DELETE'.freeze
+    UNDERSCORE_COORDINATE_SEARCH = "_coordinate_search".freeze
+    UNDERSCORE_SEARCH            = '_search'.freeze
+    UNDERSCORE_ALL               = '_all'.freeze
 
     # Auto-include all namespaces in the receiver
     #
